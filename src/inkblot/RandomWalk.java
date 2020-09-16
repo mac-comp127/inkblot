@@ -8,14 +8,14 @@ import java.util.Random;
  * forward or backward by one unit.
  */
 public class RandomWalk {
-    private Random rng;
+    private Random rand;
 
     /**
      * Creates a new random walk starting with some initial value.
      * TODO: Adjust this constructor to take an initial value for the walk.
      */
     public RandomWalk() {
-        rng = new Random();
+        rand = new Random();
     }
 
     /**
